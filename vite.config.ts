@@ -12,6 +12,13 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      preview: {
+        host: '0.0.0.0',
+        port: parseInt(env.PORT) || 80,
+        allowedHosts: [
+            'frontend-cadastrocliente.onrender.com'
+        ]
+      },
     };
 });
