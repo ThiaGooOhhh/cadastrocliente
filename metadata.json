@@ -1,0 +1,5 @@
+{
+  "name": "Customer Registry",
+  "description": "A user-friendly and efficient application to manage a customer registry, allowing for creation, reading, updating, and deletion of customer records.",
+  "requestFramePermissions": []
+}
